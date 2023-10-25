@@ -1,0 +1,73 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    width:fit-content;
+   padding-left: 20px; 
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+   height: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+  gap: 350px;
+}
+.Logo{
+    height: 50px;
+    width: 150px;
+}
+nav ul { 
+    font-family: "Red Rose", cursive;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(246, 195, 26);
+    list-style: none;
+}
+section{
+   
+    margin-top: 30px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-family: "Red Rose", cursive;
+    color:  rgb(246, 195, 26);;
+    font-weight: bolder;
+}
+footer img{
+   position:fixed;
+   bottom: 0px;
+   right: 0px;
+   height:"80px";
+    width:"80px";
+}
+
+
+
+button {
+    background-color: rgb(229, 35, 35);
+    padding: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    font-weight: 700;
+    width: 5%;
+}
+section button{
+    padding: 12px;
+    width: 15%;
+    height: 50px;
+    font-size: large;
+}
